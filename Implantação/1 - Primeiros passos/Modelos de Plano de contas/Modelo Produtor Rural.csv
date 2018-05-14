@@ -1,0 +1,322 @@
+Código;Descrição;Tipo;Natureza;Sinal;Sintética / Analítica;Materiais;Pagamentos;Recebimentos;Conta Ativa?
+1.0.0.00.0000;ATIVO;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.0.00.0000;CIRCULANTE;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.1.00.0000;DISPONIVEL;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.1.01.0000;EM ESPECIE;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.1.02.0000;BANCOS CONTA CORRENTE;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.1.04.0000;BANCOS CONTA APLICACAO;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.1.05.0000;IMPOSTOS RECUPERADOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.1.05.0001;ICMS Recuperado;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.2.00.0000;TITULOS A RECEBER;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.2.01.0000;CLIENTES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.3.00.0000;ESTOQUES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.3.01.0000;ALMOXARIFADOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.3.02.0000;COMBUSTIVEL;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.01.0000;ADIANTAMENTOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.03.0000;ADIANTAMENTO/DESCONTOS - NPRS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.05.0000;IMPOSTOS A RECUPERAR;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.05.0001;IPI A Recuperar;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.05.0002;ICMS a Recuperar;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.05.0003;IRRF a Recuperar;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.05.0004;CSLL a Recuperar;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.05.0005;IRPJ a Recuperar;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.05.0006;INSS Retido na Fonte;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.06.0000;DESPESAS A APROPRIAR;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.06.0001;Seguros a Apropriar;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.1.4.07.0000;ARRENDATARIOS/USINA A RECEBER;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.08.0000;OUTROS CREDITOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.1.4.08.0001;ADIANTAMENTO DE SALARIOS;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.0.00.0000;NAO CIRCULANTE;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.1.01.0000;CLENTES DE LONGO PRAZO;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.1.01.0001;Compensao de Diesel;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.4.01.0000;EMPRESTIMOS - MUTUOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.00.0000;IMOBILIZADO;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.01.0000;MOVEIS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.02.0000;IMOVEIS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.03.0000;(-) AMORTIZACOES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.04.0000;(-) DEPRECIACOES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.04.0001;Depreciação Acumulada de Máquinas;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0002;Depreciação Acumulada de Caminhões;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0003;Depreciação Acumulada de Equipamentos;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0004;Depreciação Acumulada de Implementos;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0005;Depreciação Acumulada de VeIculos;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0006;Depreciação Acumulada de Tratores;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0007;Depreciação Acumulada de Reboques;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.04.0008;Depreciação Acumulada de Onibus;Patrimonial;Ativo;Débito;Analítica;Não;Não;Não;S
+1.2.5.05.0000;VEICULOS PARTICULARES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.06.0000;VEICULOS ADMINISTRATIVOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.07.0000;TRANSPORTE COLETIVO - ONIBUS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.08.0000;CULTURA PERMANENTE;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.09.0000;REBOQUES/TRANSBORDOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.10.0000;TRATORES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.11.0000;MAQUINAS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.13.0000;TRANSBORDOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.14.0000;CARREGADEIRA;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.15.0000;ONIBUS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.16.0000;CONSORCIOS;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.17.0000;AGRICULTURA;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+1.2.5.18.0000;CAMINHOES;Patrimonial;Ativo;Débito;Sintética;Não;Não;Não;S
+2.0.0.00.0000;PASSIVO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.0.00.0000;CIRCULANTE;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.00.0000;OBRIGACOES DE CURTO PRAZO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.01.0000;OBRIGACOES COM TERCEIROS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.02.0000;FORNECEDORES OPERACIONAIS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.03.0000;OBRIGACOES TRABALHISTAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.03.0001;FGTS;Patrimonial;Ativo;Crédito;Analítica;Não;Não;Não;S
+2.1.1.04.0000;OBRIGACOES PREVIDENCIARIAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.05.0000;SINDICATOS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.06.0000;PRO LABORE A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.07.0000;PROVISOES;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.08.0000;OBRIGACOES TRIBUTARIAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.09.0000;LICENCIAMENTOS E TAXAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.10.0000;COOPERATIVAS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.11.0000;ARRENDAMENTOS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.12.0000;MULTAS DIVERSAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.13.0000;EMPRESTIMOS E FINANCIAMENTOS BANCARIOS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.14.0000;EMPRESTIMOS E FINANCIAMENTOS DE TERCEIROS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.15.0000;EMPRESTIMO - NPR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.16.0000;MUTUOS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.17.0000;CONSORCIOS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.18.0000;ADIANTAMENTOS USINAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.19.0000;ADIANTAMENTO - NPRS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.20.0000;OUTRAS CONTAS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.21.0000;OBRIGACOES PARTICULARES;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.22.0000;SEGUROS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.23.0000;ALUGUEIS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.24.0000;TARIFAS BANCARIAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.1.1.25.0000;OBRIGACOES EM ANDAMENTO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.2.0.00.0000;PASSIVO NAO CIRCULANTE;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.2.1.00.0000;OBRIGACOES DE LONGO PRAZO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.2.1.01.0000;EMPRESTIMOS/FINANCIAMENTOS BANCARIOS DE LONGO PRAZO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.2.1.02.0000;EMPRESTIMOS DE MUTUOS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.0.00.0000;PATRIMONIO LIQUIDO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.1.00.0000;PATRIMONIO LIQUIDO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.1.01.0000;CAPITAIS SOCIAIS SUBSCRITOS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.1.02.0000;RESERVA DE CAPITAL;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.1.03.0000;RESERVA PARA REAVALIACAO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.1.04.0000;RESULTADO DO EXERCICIO;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
+2.3.1.04.0001;Lucro Acumulados;Patrimonial;Passivo;Crédito;Analítica;Não;Não;Não;S
+2.3.1.04.0002;(-)Prejuizos Acumulados;Patrimonial;Passivo;Crédito;Analítica;Não;Não;Não;S
+2.3.1.04.0003;Conta de Zeramento;Patrimonial;Passivo;Crédito;Analítica;Não;Não;Não;S
+3.0.0.00.0000;RECEITAS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.1.01.0000;RECEITAS OPERACIONAIS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.1.01.0001;Venda de Cana;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.01.0002;Fechamento de Safra;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.01.0003;Fornecimento de Cana;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.01.0004;Receitas Pecuarias;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.01.0005;Receitas Seringueira/Latex;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.01.0006;Vendas para funcionários (Peças e outros);Receita;Resultado;Crédito;Analítica;Sim;Não;Sim;S
+3.1.1.01.0007;Vendas para terceiros (Peças e outros);Receita;Resultado;Crédito;Analítica;Sim;Não;Sim;S
+3.1.1.02.0000;RECEITAS PRESTACAO DE SERVICOS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.1.02.0001;Prestação Serviço de Plantio;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.03.0000;RECEITAS HORAS DE MAQUINA;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.1.03.0001;Horas Maquinas;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.04.0000;RECEITAS FINANCEIRAS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.1.04.0001;Descontos Obtidos;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.04.0002;Ressarcimentos Bancarios;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.04.0003;Ressarcimentos Impostos;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.04.0004;Ressarcimentos Seguros;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.04.0005;Rendimentos BancArios;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.04.0006;Receitas com Juros/Multa;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.05.0000;RECEITAS PRESTACAO DE SERVICO MECANIZADA;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.1.05.0001;PS CCT - MEC - Corte de Cana;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.05.0002;PS CCT - MEC - Transbordo de Cana;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.1.05.0003;PS CCT - MEC - Transporte Cana;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.2.00.0000;OUTRAS RECEITAS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.2.01.0000;OUTRAS RECEITAS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.2.02.0000;OUTRAS RECEITAS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.1.2.02.0001;Venda Caminhoes / Carretas;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.2.02.0002;Venda Maquinas / Implementos;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.2.02.0003;Venda Veiculos;Receita;Resultado;Crédito;Analítica;Não;Não;Sim;S
+3.1.2.03.0000;OUTRAS RECEITAS;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.2.0.00.0000;RECEITA BRUTA;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+3.2.1.00.0000;RECEITA BRUTA;Receita;Resultado;Crédito;Sintética;Não;Não;Sim;S
+4.0.0.00.0000;DESPESAS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.0.00.0000;DESPESAS OPERACIONAIS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.00.0000;CUSTOS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.01.0000;CUSTO DOS SERVICOS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.01.0001;Salarios;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0002;Horas Extras;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0003;Ferias;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0004;13o. Salario;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0005;Indenizacoes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0006;Seg. Acidentes Trabalho;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0007;Acoes Trabalhistas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0008;Comissoes / Gratificacoes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0009;DSR - Descanso Semanal Remunerado;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0010;Adicional Noturno;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0011;Adicional de Periculosidade;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0012;Adicional de Insalubridade;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0013;Horario de Percurso;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0014;Salario ProducAo;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0015;Material de EPI;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0016;Alugueis - Estdia Funcionrios;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0017;Cestas Basicas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0018;Diaristas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0019;Pro - Labore;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0020;Rescisoes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0021;Adiantamento - Vale;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0022;Credito Estouro de Salario;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0023;Arrendondamento Atual;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0024;Insalubridade;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0025;Materiais para Alojamento;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0026;Despesas com Viagens;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0027;Salarios SR;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0028;Diaristas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0029;Tickets de Alimentacao;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0030;Assitencia Medica e Social;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.01.0031;Despesas com Área de Vivencia;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.02.0000;ENCARGOS SOCIAIS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.02.0001;Despesas com INSS;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.02.0002;Despesas com FGTS;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.02.0003;Multa Rescisoria de FGTS;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.02.0004;Contribuicoes Sindicais (Patronais);Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.02.0005;IRRF S/ Folha;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.03.0000;PROVISOES;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.03.0001;Provisoes de Ferias + 1/3;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.03.0002;Provisao de 13o. Salario;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.03.0003;Provisao de INSS s/ 13o. Salario;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.03.0004;Provisao de INSS s/ Ferias;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.03.0005;Provisao de FGTS s/ 13o. Salario;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.03.0006;Provisao de FGTS s/ Ferias;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0000;MANUTENCOES;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.04.0001;Manutencao de Maquinas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0002;Manutencao de Caminhoes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0003;Manutencao de Equipamentos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0004;Manutencao de Implementos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0005;Manutencao de Veiculos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0006;Manutencao de Estabelecimento;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0007;Fretes e Carretos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0008;Manutenção de Tratores;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0009;Manutencao de Reboques / Transbordo;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0010;Manutencao de Onibus;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.04.0011;Manutencao Frotas Terceiros;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0000;DESPESAS ADMINISTRATIVAS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.05.0001;Agua e Esgoto Estabelecimento;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0002;Energia Eltrica Estabelecimento;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0003;Material de Escritorio / Limpeza;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0004;Honorarios Contabeis;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0005;Honorarios de Advogados;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0006;Material Higiene e Limpeza;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0007;Copa e Cozinha;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0008;Telefone;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0009;Internet;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0010;Programas e Softwares;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0011;TV por Assinatura;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0012;Aluguel;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0013;Farmacia;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0014;Convenio Aplacana;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0015;Relogio de Ponto;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0016;Uniformes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0017;Demais Taxas e Impostos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0018;Despesas Oficina;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.05.0019;Demais Despesas Administrativas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0000;MANUTECOES DE PROPRIEDADES;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.06.0001;Manutencao em Propriedades;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0002;Adubos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0003;Herbicida;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0004;Anlise de Solo;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0005;Fertilizantes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0006;Gesso;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0007;Milho;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0008;Arrendamento - Pagamento;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0009;Farelo de Trigo;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0010;Calcario;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.06.0011;Controle Biológico;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.07.0000;OFICINA;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.07.0001;Ferramentas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.07.0002;Oxigenio para Solda;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.07.0003;Tornearia;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0000;SEGUROS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.08.0001;Seguros Tratores;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0002;Seguros de Caminhoes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0003;Seguro Maquinas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0004;Seguro RH;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0005;Sindicato(s);Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0006;Seguros de Vida;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0007;Seguro VeIculos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0008;Seguro Reboques;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.08.0009;Seguro Onibus;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0000;DEPRECIACAO;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.09.0001;Depreciacao de Maquinas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0002;Depreciacao de Caminhoes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0003;Depreciacao de Equipamentos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0004;Depreciacao de Implementos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0005;Depreciacao de Veiculos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0006;Depreciacao de Tratores;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0007;Depreciacao de Reboques;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.09.0008;Depreciacao de Onibus;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.10.0000;COMBUSTIVEIS E LUBRIFICANTES;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.10.0001;Oleo Diesel;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.10.0002;Alcool;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.10.0003;Gasolina;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.10.0004;Lubrificantes;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.10.0005;Combustivel Terceiros;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0000;LICENCIAMENTOS E TAXAS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.11.0001;Impostos - IPVA;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0002;Licenciamentos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0003;Seguro DPVAT;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0004;Emplacamento;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0005;Faixas Refletivas;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0006;Transferencias;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0007;Licencas AET;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.11.0008;Demais Taxas Vinculadas ? Veiculos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.12.0000;IMPOSTOS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.12.0001;Pis;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.12.0002;Cofins;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.12.0003;ITR;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.12.0004;IRPJ;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.12.0005;CSLL;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.12.0006;Simples Nacional;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.13.0000;CUSTOS PECUARIOS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.13.0001;Aquisicao de Bovinos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.13.0002;Aquisicao de Aves;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.13.0003;Aquisicao de Suinos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.13.0004;Medicamentos Veterinarios;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.14.0000;GASTOS COM TERCEIROS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.14.0001;Terceiros - Transporte de Cana;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.14.0002;Terceiros - Plantio;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.14.0003;Terceiros - Corte;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.15.0000;DESPESAS DE CONSORCIOS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.15.0001;Despesa com consorcios;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.16.0000;PRO LABORE;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.16.0001;Despesa com pro labore;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.1.2.17.0000;ABATIMENTOS - USINA;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.18.0000;DEPRECIACOES;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.1.2.19.0000;DESPESAS ATIVIDADE CANA;Despesa;Resultado;Débito;Sintética;Não;Não;Não;S
+4.1.2.19.0001;Compra de Muda Cana de Açucar;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.0.00.0000;DESPESAS NAO OPERACIONAIS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.2.1.00.0000;DESPESAS NAO OPERACIONAIS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.2.1.01.0000;DESPESAS FINANCEIRAS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.2.1.01.0001;Tarifas Bancarias;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0002;Juros de boleto;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0003;Juros Pagamentos em atraso;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0004;Taxas Cartorrias por atraso;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0005;Juros de Parcelamentos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0006;Juros de Emprestimos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0007;Juros de Financiamentos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0008;Taxa por Antecipacao de Credito;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0009;Descontos Concedidos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.01.0010;Pagamento de compra de veículos financiados;Despesa;Resultado;Débito;Analítica;Não;Sim;Não;S
+4.2.1.02.0000;MULTAS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.2.1.02.0001;Multas de Boleto;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.02.0002;Multas Ambientais;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.02.0003;Multas - TAC;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.02.0004;Multas de Transito;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.02.0005;TAC Emprestimos;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+4.2.1.04.0000;DESCONTOS - USINA;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.2.1.05.0000;CUSTO DAS MERCADORIAS VENDIDAS;Despesa;Resultado;Débito;Sintética;Sim;Sim;Não;S
+4.2.1.05.0001;Custo das Mercadorias Vendidas em estoque;Despesa;Resultado;Débito;Analítica;Sim;Sim;Não;S
+6.0.0.00.0000;TRANSITORIA;Patrimonial;;Débito;Sintética;Sim;Sim;Não;S
+6.1.0.00.0000;TRANSITORIA;Patrimonial;;Débito;Sintética;Sim;Sim;Não;S
+6.1.1.00.0000;TRANSITORIA;Patrimonial;;Débito;Sintética;Sim;Sim;Não;S
+6.1.1.01.0000;TRANSITORIA;Patrimonial;;Débito;Sintética;Sim;Sim;Não;S
+6.1.1.01.0001;Transitoria de Emprestimos;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0002;Ajuste do Exercicio Anterior;Patrimonial;Ativo;Débito;Analítica;Sim;Sim;Sim;S
+6.1.1.01.0003;Transitoria - Devolucao;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0004;Transitoria - Recebimentos e Pagamentos;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0005;Transferencia Diesel;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0006;Transitoria do Banco;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0007;Ajuste do Exerc?cio Anterior;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0008;Transit?ria de Baixas em Lote;Patrimonial;;Débito;Analítica;Sim;Sim;Não;S
+6.1.1.01.0009;Ajuste de empréstimo;Patrimonial;Ativo;Débito;Analítica;Não;Sim;Sim;S
