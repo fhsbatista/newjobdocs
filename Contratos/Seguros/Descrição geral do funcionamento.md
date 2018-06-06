@@ -47,7 +47,7 @@ Dados a inserir no cadastro:
 
  Integra��es cont�beis:
   - Est�o descritas em um documento a parte na mesma pasta "Contratos/Seguros".
-Endosso e Rescisões:
- - O contrato de seguro também pode ser "endossado" (o contrato é alterado por algum motivo) ou "rescindido" (contrato cancelado)
+Endosso:
+ - O contrato de seguro também pode ser "endossado" (o contrato é alterado por algum motivo)
  - O NewJob já tem duas funcionalidades prontas para atender este caso. Ambos estão descritos em um pdf na mesma pasta "Contratos/Seguros".
    
