@@ -62,7 +62,6 @@ Código;Descrição;Tipo;Natureza;Sinal;Sintética / Analítica;Materiais;Pagamentos;
 2.1.1.01.0000;OBRIGACOES COM TERCEIROS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
 2.1.1.02.0000;FORNECEDORES OPERACIONAIS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
 2.1.1.03.0000;OBRIGACOES TRABALHISTAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
-2.1.1.03.0001;FGTS;Patrimonial;Ativo;Crédito;Analítica;Não;Não;Não;S
 2.1.1.04.0000;OBRIGACOES PREVIDENCIARIAS;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
 2.1.1.05.0000;SINDICATOS A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S
 2.1.1.06.0000;PRO LABORE A PAGAR;Patrimonial;Passivo;Crédito;Sintética;Não;Não;Não;S

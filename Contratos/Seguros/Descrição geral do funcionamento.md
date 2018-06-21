@@ -1,9 +1,10 @@
+## Contrato de Seguros
 
-Quando este contrato será usado:
+### Quando este contrato será usado:
  - Sempre que o cliente tiver uma apólice de seguro, ele pode fazer o cadastro dela, com o objetivo de ter no New Job dados sobre os seguros de forma geral. Tirando relatários de bens que estão com seguro vencido, ou bens que não tem seguro algum, vencimento de parcelas, apólices que estão chegando no fim da vigência etc.
 
 
-Pré-Requisitos:
+### Pré-Requisitos:
 
  - Para fazer o cadastro de uma apólice, é necessário que o usuário insira um "bem" no contrato. Este "bem" é um cadastro feito em Ativos / Bens Móveis ou Bens Imóveis.
 
@@ -13,7 +14,7 @@ Pré-Requisitos:
    As parametrizações a serem feitas são: selecionar tipo de pagamento, conta caixa e centro de custo padrão (isto pode variar de cliente para cliente), e informar também a conta contábil que será usada para o lançamento de apropriações, isto é informado no campo "Cta.Contábil Seguros a Apropriar"
 
 
-Cadastrando o contrato:
+### Cadastrando o contrato:
 
  - O contrato é cadastrado em Contratos / Seguros / Cadastro do contrato
  
@@ -45,9 +46,5 @@ Dados a inserir no cadastro:
  Finalizando o contrato:
   - Ao finalizar o contrato, serão feitas as seguintes validações: Verificar se a soma das coberturas é igual ao valor da apólice, desconsiderando iof e outros custos. E Verificar se a soma das parcelas é igual ao Vr. da apólice (neste caso o iof e outros custos são considerados.
 
- Integrações contábeis:
-  - Estão descritas em um documento a parte na mesma pasta "Contratos/Seguros".
-Endosso:
- - O contrato de seguro também pode ser "endossado" (o contrato é alterado por algum motivo)
- - O NewJob já tem duas funcionalidades prontas para atender este caso. Ambos estão descritos em um pdf na mesma pasta "Contratos/Seguros".
+ 
    
