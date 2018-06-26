@@ -1,34 +1,31 @@
-## SEGUROS – LANÇAMENTOS CONTÁBEIS
-Este documento tem como objetivo descrever quais são os lançamentos contábeis que o New Job precisa gerar quando for cadastrado um contrato de seguros (Contratos  / Seguros).
+# SEGUROS – LANÇAMENTOS CONTÁBEIS DE CADASTRO DO CONTRATO
+Este documento tem como objetivo descrever quais são os lançamentos contábeis que o New Job precisa gerar quando for cadastrado um contrato de locações (Contratos  / Locações).
 
-### Lançamentos referente a “apropriação do seguro”, para cada bem inserido no contrato
-- Data:	Data de emissão do contrato
-- Débito:	Conta parametrizada como “Cta.Contábil Seguros a Apropriar” (Contratos / Seguros / Parâmetros Gerais)
- - Crédito:	Conta contábil vinculada ao fornecedor usado no contrato de seguro
- - Valor:	Valor total dos prêmios do bem (lembrando, que é um lançamento para cada diferente bem inserido na apólice)
+## Descrição geral dos lançamentos
+Os lançamentos gerados por estre contrato são simples. Basicamente, é gerado um lançamento contábil para cada parcela do contrato.
+E o lançamento pode ser gerado de duas formas, dependendo do tipo do contrato, que pode ser de "Locador" e de "Locatário".
+
+### Locador
+ - Data:  Primeiro dia do mês de vencimento da parcela (Ex: Vencimento = 10/05 -> Lançametno será na data de 01/05)
+ - Valor: Valor da parcela
+ - Débito: Conta contábil vinculada no "Locatário" que foi colocado no contrato.
+ - Crédito: Conta contábil de "receita" informada no cadastro do contrato.
+
+### Locatário
+ - Data:  Primeiro dia do mês de vencimento da parcela (Ex: Vencimento = 10/05 -> Lançametno será na data de 01/05)
+ - Valor: Valor da parcela
+ - Débito: Conta contábil de "despesa" informada no cadastro do contrato.
+ - Crédito: Conta contábil vinculado ao "Locador" que foi colocado no cadastro.
+
+## Integrações contábeis a serem feitas quando o contrato receber o "Aditivo"
+
+Neste caso, o sistema deverá excluir todos os lançamentos contábeis referentes às parcelas que estão em ABERTO, e que tem data de vencimento POSTERIOR à data de emissão do ativido.
+
+E então, deverão ser criados novos lançamentos contábeis que serão referentes aos novos títulos criados pelo aditivo, seguindo as mesmas regras informadas no tópico anterior.
+
+## Integrações contábeis a serem feitas quando o contrato receber a "Rescisão"
+
+Neste caso, o sistema deverá excluir todos os lançamentos contábeis referentes às parcelas que estão em ABERTO, e que tem data de vencimento POSTERIOR à data de emissão do ativido.
+
+É a mesma coisa que é feita com o "Aditivo", com a diferença de que não serão criados novos lançamentos contábeis neste caso.
  
-
-### Lançamentos de despesa do seguro, para cada bem inserido no contrato:
-Obs: Será gerado um lançamento contábil para cada bem dentro de cada mês de vigência do contrato. Isto é assim pois a despesa precisa ser “apropriada” conforme a vigência do contrato, e a conta contábil de despesa pode variar de acordo com o “subgrupo” do bem. Sendo assim, é sempre gerado um lançamento para cada bem inserido dentro de cada mês de vigência.
-- Data:	Último dia do mês referente ao lançamento contábil. (Lembrando que é gerado um lançamento para cada mês de vigência do contrato, então a data vai ser o última deste mês)
- - Débito:	Conta parametrizada como “Despesa com seguros” no cadastro de “subgrupo” que está vinculado ao bem utilizado no cadastro do contrato de seguro.
- - Crédito:	Conta parametrizada como “Cta. Contábil Seguros a Apropriar” (Contratos / Seguros / Parâmetros Gerais).
-- Valor:	Soma do total de prêmios inseridos para o bem em questão, dividido pela quantidade de meses de vigência do contrato.
- 
-
-### Lançamentos contábeis de “IOF” e “Outros custos”
-Na primeira página do cadastro do contrato, o usuário tem a opção de informar um valor de custos com IOF ou “outros custos”. Estes dois valores precisam também chegar até a contabilidade, conforme os lançamentos abaixo.
-
- - Data:	Data de emissão do contrato
- - Débito:	Conta parametrizada como “Cta.Contábil Desp.IOF Empréstimos” ou “Cta.Contábil Desp.TAXAS Empréstimos” nas parametrizações do contrato de seguro.
- - Crédito:	Conta contábil vinculada ao fornecedor usado no contrato de seguro
- - Valor:	Valor de IOF ou Outros custos
-
-#### Observações:
-1. O lançamento contábil para iof e para outros custos é basicamente o mesmo, só muda a conta contábil que será usada como débito.
-2. As contas que serão usadsa como "Débito" são as mesmas contas que o contrato de Empréstimo utiliza. Por isto o termo "empréstimo" está sendo mencionado no nome das contas acima.
-
-
-
-
-
